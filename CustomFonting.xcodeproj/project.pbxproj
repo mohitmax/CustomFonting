@@ -22,6 +22,9 @@
 		97A8509A1923AF0D00D5A193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A850791923AF0D00D5A193 /* UIKit.framework */; };
 		97A850A21923AF0D00D5A193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97A850A01923AF0D00D5A193 /* InfoPlist.strings */; };
 		97A850A41923AF0D00D5A193 /* CustomFontingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A850A31923AF0D00D5A193 /* CustomFontingTests.m */; };
+		97A850AE1923B00600D5A193 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97A850AD1923B00600D5A193 /* fontawesome-webfont.ttf */; };
+		97A850B01923B5D500D5A193 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97A850AF1923B5D500D5A193 /* fontello.ttf */; };
+		97A850B21923CD3D00D5A193 /* COA-font-icon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97A850B11923CD3D00D5A193 /* COA-font-icon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		97A8509F1923AF0D00D5A193 /* CustomFontingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomFontingTests-Info.plist"; sourceTree = "<group>"; };
 		97A850A11923AF0D00D5A193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97A850A31923AF0D00D5A193 /* CustomFontingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFontingTests.m; sourceTree = "<group>"; };
+		97A850AD1923B00600D5A193 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		97A850AF1923B5D500D5A193 /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello.ttf; sourceTree = "<group>"; };
+		97A850B11923CD3D00D5A193 /* COA-font-icon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "COA-font-icon.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 		97A850691923AF0C00D5A193 = {
 			isa = PBXGroup;
 			children = (
+				97A850B11923CD3D00D5A193 /* COA-font-icon.ttf */,
+				97A850AF1923B5D500D5A193 /* fontello.ttf */,
+				97A850AD1923B00600D5A193 /* fontawesome-webfont.ttf */,
 				97A8507B1923AF0D00D5A193 /* CustomFonting */,
 				97A8509D1923AF0D00D5A193 /* CustomFontingTests */,
 				97A850741923AF0D00D5A193 /* Frameworks */,
@@ -231,6 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A850B21923CD3D00D5A193 /* COA-font-icon.ttf in Resources */,
+				97A850B01923B5D500D5A193 /* fontello.ttf in Resources */,
+				97A850AE1923B00600D5A193 /* fontawesome-webfont.ttf in Resources */,
 				97A8508C1923AF0D00D5A193 /* Main_iPad.storyboard in Resources */,
 				97A850911923AF0D00D5A193 /* Images.xcassets in Resources */,
 				97A850891923AF0D00D5A193 /* Main_iPhone.storyboard in Resources */,
@@ -470,6 +482,7 @@
 				97A850A91923AF0D00D5A193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97A850AA1923AF0D00D5A193 /* Build configuration list for PBXNativeTarget "CustomFontingTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +491,7 @@
 				97A850AC1923AF0D00D5A193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
