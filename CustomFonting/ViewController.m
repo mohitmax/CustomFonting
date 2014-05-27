@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+FontIcon.h"
 
 @interface ViewController ()
 
@@ -27,7 +28,8 @@
     
     self.lblFont.font = customFont;
     self.lblFont.textAlignment = NSTextAlignmentCenter;
-    [self.lblFont setText:[NSString stringWithUTF8String:"\uE600"]];
+    //[self.lblFont setText:[NSString stringWithUTF8String:"\uE600"]];
+    self.lblFont.text = [NSString fontIcon:ic_date];
     
     self.lblFont.textColor = [UIColor orangeColor];
     //self.lblFont.shadowColor = [UIColor blackColor];

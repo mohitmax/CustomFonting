@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97746CC3192E3D4100F4B75B /* NSString+FontIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 97746CC2192E3D4100F4B75B /* NSString+FontIcon.m */; };
 		97A850761923AF0D00D5A193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A850751923AF0D00D5A193 /* Foundation.framework */; };
 		97A850781923AF0D00D5A193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A850771923AF0D00D5A193 /* CoreGraphics.framework */; };
 		97A8507A1923AF0D00D5A193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A850791923AF0D00D5A193 /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97746CC1192E3D4100F4B75B /* NSString+FontIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontIcon.h"; sourceTree = "<group>"; };
+		97746CC2192E3D4100F4B75B /* NSString+FontIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontIcon.m"; sourceTree = "<group>"; };
 		97A850721923AF0D00D5A193 /* CustomFonting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFonting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A850751923AF0D00D5A193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		97A850771923AF0D00D5A193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +134,8 @@
 				97A8508E1923AF0D00D5A193 /* ViewController.m */,
 				97A850901923AF0D00D5A193 /* Images.xcassets */,
 				97A8507C1923AF0D00D5A193 /* Supporting Files */,
+				97746CC1192E3D4100F4B75B /* NSString+FontIcon.h */,
+				97746CC2192E3D4100F4B75B /* NSString+FontIcon.m */,
 			);
 			path = CustomFonting;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97A8508F1923AF0D00D5A193 /* ViewController.m in Sources */,
+				97746CC3192E3D4100F4B75B /* NSString+FontIcon.m in Sources */,
 				97A850861923AF0D00D5A193 /* AppDelegate.m in Sources */,
 				97A850821923AF0D00D5A193 /* main.m in Sources */,
 			);
